@@ -1,0 +1,41 @@
+.project-item{
+    background-color: #333233;
+    width: 60px;
+    border-radius: 20px;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 10px;
+
+}
+.project-status{
+    font-family: 'Roboto';
+    font-size: 13px;
+    color: #928e94;
+    font-weight: 300;
+}
+.quantity-btn{
+    outline: none;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    background-color: transparent;
+    font-family: 'Roboto';
+    color: #c1f7de;
+    font-weight: 600px;
+    font-size: 18px;
+    padding: 2px;
+}
+.total{
+    border-left: 3px solid #6558db;
+}
+.completed{
+    border-left: 3px solid #a8f7cd;
+}
+.in-progress{
+    border-left: 3px solid #f7bf9e;
+}
+.waiting{
+    border-left: 3px solid #f7798c;
+}
